@@ -1,0 +1,15 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contract": {
+      "content": "contract C { function f() public { } }"
+    }
+  },
+  "settings": {
+    "outputSelection": {
+      "*": {
+        "*": ["*"]
+      }
+    }
+  }
+}
