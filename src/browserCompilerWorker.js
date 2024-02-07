@@ -17,7 +17,7 @@ self.onmessage = (e) => {
       compiler = wrapper(self.Module);
       log("Compiler loaded");
 
-      self.postMessage({ type: "compilerLoaded" });
+      self.postMessage({ type: "compilerLoaded", version: compiler.version() });
       break;
     }
     case "compile": {
