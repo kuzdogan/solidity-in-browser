@@ -10,7 +10,6 @@
 
 # IDE and editor files
 /.idea
-/.vscode
 *.swp
 *.swo
 

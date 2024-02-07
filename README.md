@@ -15,4 +15,12 @@ First we've resolved the polyfill issues.. Here we've added `@craco/craco` and t
 5. Select a compiler
 6. Change the compiler version
 
-You'll see the error "Invalid Version" in the console.
+## Debug
+
+To debug the code in VSCode first run it with:
+
+```bash
+npm start
+```
+
+Then switch to the debug tab and select `Launch Chrome against localhost` and press the play button. This will open a new Chrome window with the debugger attached.
